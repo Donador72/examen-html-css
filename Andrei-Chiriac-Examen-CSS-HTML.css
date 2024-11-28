@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, black);
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #a500;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: red;
+    text-decoration:hwb(from color h w b);
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: red;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    text-align: center;
+    width: 45%;
+    background-color:red;
+    padding: 20px;
+    border-radius: 10px;
+}
+.summary-style {
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.figuras {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    text-align: center;
+    text-decoration: overline;
+    text-emphasis-color: yellow;
+}
